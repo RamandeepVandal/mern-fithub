@@ -44,7 +44,7 @@ export const AddWeight = () => {
                   <input type="date" className="form-control" id="weightDate" value={date} onChange={(e) => setDate(e.target.value)}/>
                   <label htmlFor="weightDate">Date</label>
                 </article>
-                <button type="submit" className="btn btn-primary">Add</button>
+                <button type="submit" className="btn btn-outline-primary">Add</button>
               </form>
             </div>
           </div>
